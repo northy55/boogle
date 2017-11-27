@@ -1,0 +1,99 @@
+html{
+  font-family: Raleway, Helvetica, sans-serif;
+  width: 100%;
+}
+.nav_container{
+  position: fixed;
+  width: 100%;
+}
+.nav{
+  color: #c7c7c7
+  width: auto;
+  height: 50px;
+  right: 0;
+  position: absolute;
+  right: 100px;
+}
+.nav_link li{
+  display: inline-block;
+}
+.nav_icon{
+
+  float: right;
+}
+.app-icon
+{
+  position: absolute;
+  width: 25px;
+  bottom: 15px;
+}
+.notif-icon
+{
+  position: absolute;
+height: 20px;
+  bottom: 18px;
+  right: -50px;
+}
+.search{
+  text-align: center;
+  position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+.logo{
+  margin: auto;
+  position: relative;
+  width: 300px;
+}
+
+.search_input{
+  background-image: url(keyboard.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  margin: auto;
+  position: relative;
+  right: 50px;
+  width: 600px;
+  height: 40px;
+  border: 1px solid #c7c7c7;
+  border-radius:2px;
+  box-shadow: 2px 2px 1px #dcdcdc;
+  font-size: 16px;
+}
+.button {
+    background-color: #efefef;
+    font-weight: bold;
+    border: none;
+    color: #696969;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #efefef;
+    font-weight: bold;
+    border: 1px solid grey;
+    color: #696969;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttons
+{
+  position: relative;
+  margin-top: 20px;
+}
